@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://vialibre:vialibre@localhost:27018/vialibre?authSource=admin
+
+jwt:
+  private:
+    key: classpath:app.key
+  public:
+    key: classpath:app.pub
